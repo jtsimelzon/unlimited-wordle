@@ -3,6 +3,7 @@ import random, wordlist
 words = wordlist.wordList()
 
 # this is a comment
+# this is another comment
 
 wordChoiceIndex = random.randint(0, len(words))
 chosenWord = words[wordChoiceIndex]
