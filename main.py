@@ -2,6 +2,8 @@ import random, wordlist
 
 words = wordlist.wordList()
 
+# this is a comment
+
 wordChoiceIndex = random.randint(0, len(words))
 chosenWord = words[wordChoiceIndex]
 # print(chosenWord)
